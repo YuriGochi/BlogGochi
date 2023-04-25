@@ -6,10 +6,10 @@ DefaultContentLanguage = "pt-br"
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
+    identifier = "tags"
+    name = "Tags"
+    title = "Tags"
+    url = "/tags/"
     weight = 0
   [[menu.main]]
     identifier = "posts"
