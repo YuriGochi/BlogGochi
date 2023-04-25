@@ -4,50 +4,16 @@ title = 'Gochi Dev'
 theme = "tale-hugo"
 DefaultContentLanguage = "pt-br"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    guessSyntax = true
-    noClasses = false
-    style = "bw"
-    tabWidth = 2
-
-[author]
-  name = "Felipe"
-  homepage = "https://twitter.com/felipecesr"
-
-[languages]
-  [languages.pt-br]
-    contentDir = "content/pt-br"
-    languageName = "Portuguese"
-    weight = 1
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    weight = 2
-
-[params]
-mainSections = ["posts"]
-headTitle = "Felipe Cesar"
-disqus = "felipecesar" # disqus account name
-extraHead = '''
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5TG84ZB');</script>
-<!-- End Google Tag Manager -->
-'''
-extraCSSFiles = ["css/syntax.css"]
-[[params.socials]]
-name = "Github"
-link = "https://github.com/felipecesr"
-[[params.socials]]
-name = "LinkedIn"
-link = "https://www.linkedin.com/in/felipecesr/"
-[[params.socials]]
-name = "Twitter"
-link = "https://twitter.com/felipecesr"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 0
