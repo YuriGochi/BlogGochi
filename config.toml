@@ -1,7 +1,8 @@
 baseURL = 'https://gochi.netlify.app/'
-languageCode = 'en-us'
-title = 'Yuri Oliveira Gochi'
+languageCode = 'pt-br'
+title = 'Gochi Dev'
 theme = "tale-hugo"
+DefaultContentLanguage = "pt-br"
 
 [menu]
   [[menu.main]]
